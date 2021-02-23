@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       h1{text-align: center;}
+       h2{text-align: center;}
+   </style>
+    <title>Mi Primer Formulario</title>
+</head>
+
+<body>
+    
+        <h1 id="titulo">¡Queremos saber sobre vos!</h1>
+        <h2>¿Nos ayudas?</h2>
+
+        <form action="gracias.html">
+            <p>
+                <label for=""><strong>Ingrese su nombre:</strong></label><br>
+                <input type="text" name="nombre" required id="nombre">
+            </p>
+            <p>
+                <label for=""><strong><br> Ingrese su apellido</strong></label><br>
+                 <input type="text" name="apellido" required id="apellido">
+            </p>
+            <p>
+                <label for=""><strong>Email</strong></label><br>
+                 <input type="email" name="email_usuario" placeholder="por ejemplo: juanperez@gmail.com" tabindex="1" required id="email">
+            </p>
+            <p>
+                <label for=""><strong>Selecciona tu pais de procedencia</strong></label><br>
+                <select name="pais_de_procedencia" id="pais" required>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+    
+            </p>    
+    
+            <p>
+                <label><strong>¿A que carrera deseas inscribirte?</strong></label><br>
+                <label for=""><input type="radio" name="carrera_inscripta" value="ux_ui" id="inscripto_ux_ui" required> UX/UI </label>
+                <label for=""><input type="radio" name="carrera_inscripta" value="data_science" id="inscripto_data_sciencia" required> Data Science </label>
+                <label for=""><input type="radio" name="carrera_inscripta" value="desarrollo_web" id="inscripto_desarrollo_web" required> Desarrollo Web FUll Stack </label>
+                <label for=""><input type="radio" name="carrera_inscripta" value="frontend_avanzado" id="inscripto_fronted_avanzado" required> FrontEnd Avanzado </label>
+            </p>
+            <p>
+                <label for=""><strong>Modalidad</strong></label><br>
+                <label for=""><input type="radio" name="modalidad" value="presencial" id="presencial" required>Presencial</label>
+                <label for=""><input type="radio" name="modalidad" value="online" id="online" required>Online</label>
+            </p>
+            <p>
+                <label for=""> <strong>¿Estas trabajando actualmente?</strong> </label><br>
+                <label for=""><input type="radio" name="trabajando" value="si" id="trabajando_si">Si</label>
+                <label for=""><input type="radio" name="trabajando" value="no" id="trabajando_no">No</label>    
+            </p>
+    
+            <p>
+                <label for=""> <strong>Telefono de contacto</strong> </label><br>
+                <input type="number" name="telefono_contacto" placeholder="3804....... o +54....." id="telefono_contacto">
+            </p>
+    
+            <p>
+                <label for=""><strong>Descripcion Personal</strong></label><br>
+                <input type="text" name="descripcion_personal" id="descripcion_personal" minlength="20" maxlength="300" placeholder="Minimo 20 y no más de 300 caracter">
+            </p>
+           
+                
+    
+            <p>
+                <input type="submit" value="Enviar Formulario" id="bt_enviar_formulario">
+                <input type= "reset" value="Borrar campos" id="bt_resetear">
+            </p>
+            
+    
+        </form>
+
+</body>
+
+<script>
+
+        titulo = document.getElementById('titulo');
+        titulo.addEventListener("click", function(){alert("Bienvenidos a mi primer formulario")});
+
+</script>
+</html>

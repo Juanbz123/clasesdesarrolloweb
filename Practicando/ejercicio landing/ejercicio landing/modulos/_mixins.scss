@@ -1,0 +1,22 @@
+@mixin no_padding_margin {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin column($width) {
+    display: inline-block;
+    width: $width;
+}
+
+@mixin caja {
+
+        width: 70px;
+        height: 60px;
+        background-color: #fff;
+        border: 1px #000 solid;
+        float: left;
+        padding: 7px;
+        margin: 7px;
+        display: inline block;
+    
+}

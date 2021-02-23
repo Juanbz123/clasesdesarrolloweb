@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CAEf;;AAED,AAAA,UAAU,CAAC;EAEP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,IAAI;CAUd;;AAdD,AAOI,UAPM,CAON,CAAC,CAAA;EAEG,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,OAAO;CAEtB;;AAIL,AAAA,SAAS,CAAC;EAEN,KAAK,EAAE,IAAI;CAEd;;AGzBD,AAAA,cAAc,CAAC;EAEZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,UAAU;EAC5B,UAAU,EAAE,MAAM;CASpB;;AAbD,AAMI,cANU,CAMV,YAAY,CAAA;EAGR,WAAW,EAAE,KAAK;CAErB;;AEZL,AAAA,aAAa,CAAA;EACX,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;CAWZ;;AAhBD,AAQE,aARW,CAQX,OAAO,CAAC;EACN,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,gBAAgB,EAAE,KAAK;CAExB",
+    "sources": [
+        "stilos.scss",
+        "modulos/_conocimiento.scss",
+        "modulos/_container.scss",
+        "modulos/_footer.scss",
+        "modulos/_formulario.scss",
+        "modulos/_header.scss",
+        "modulos/_mixin.scss",
+        "modulos/_presentacion.scss",
+        "modulos/_proyectos.scss"
+    ],
+    "names": [],
+    "file": "stilos.css"
+}

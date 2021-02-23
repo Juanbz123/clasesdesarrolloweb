@@ -1,0 +1,70 @@
+ #contenedor {
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    position: relative;
+}
+
+#circulo {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    z-index: 2;
+}
+
+#segundo {
+    width: 5px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 17%;
+    left: 50.1%;
+    animation-name: giro-segundo;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear steps(360);
+    transform-origin: center bottom;
+}
+
+@keyframes giro-segundo {
+    to {transform: rotate(300deg);}
+}
+
+#hora {
+    width: 7px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 26%;
+    left: 50.1%;
+    animation-name: giro-hora;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center bottom;
+}
+@keyframes giro-hora {
+    to {transform: rotate(1deg);}
+}
+
+#minuto{
+    width: 4px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 50.1%;
+    animation-name: giro-minuto;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center bottom;
+}
+@keyframes giro-minuto {
+    to {transform: rotate(25deg);}
+}

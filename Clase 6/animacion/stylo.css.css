@@ -1,0 +1,22 @@
+.box_padre {
+    border: 2px whitesmoke solid;
+    align-self: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+
+.box_padre:hover {
+    animation: giro 5.5s normal;
+}
+
+@keyframes giro {
+
+    from {
+        transform: rotate (0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

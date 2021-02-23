@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: Calibri, sans-serif;
+        }
+
+        nav {
+            border-bottom: 3 px dotted firebrick;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        h2,
+        h1 {
+            color: red;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        p {
+            color: gray;
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        form {
+            border-bottom: 4px dashed green;
+        }
+
+        #navegacion {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        header {
+            position: relative;
+            background-color: lightgray;
+            border-bottom: 2px black solid ;
+        }
+
+        #navegacion li {
+            display: inline-block;
+            transition: all 300ns ease;
+            
+        }
+
+        #navegacion li:hover {
+            background-color: blue;
+            color: white;
+        }
+        header h1, header img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        header img {
+            height: auto;
+            width: 50px;
+
+        }
+
+        .noticia {
+           display: inline-block; 
+           width: 400px;
+           margin: 10px;
+           padding: 30px;
+           vertical-align: top;
+        }
+
+        .boton {
+            background-image: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+            border: none;
+            padding: 15px ;
+            font-size: 20px;
+        }
+
+    
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Imagen">
+        <h1>Blog</h1>
+        <nav id="navegacion">
+            <ul>
+                <li>Home</li>
+                <li>Blogs</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="noticia">
+            <h2>Titulo de Post 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum dolorum modi amet dicta saepe
+                nesciunt deleniti cupiditate recusandae similique! Pariatur dolore repudiandae assumenda doloribus.
+                Dolore perferendis tempore ex aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, maiores nihil? Maxime inventore
+                quaerat eligendi nisi ut itaque, repellat doloremque accusamus omnis laboriosam suscipit. Ipsa accusamus
+                voluptatibus velit in esse!</p>
+                <button class="boton">ver más</button>
+         
+            
+        </article>
+        <article class="noticia">
+            <h2>Titulo de Post 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam animi deleniti, alias numquam
+                veniam repudiandae quia voluptatem! Nam harum consequatur cumque earum tenetur veniam quidem ipsum
+                laboriosam dicta corporis?</p>
+                <button class="boton">ver más</button>
+        </article>
+    </section>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Clase 3</legend>
+                <label for="nombre">Nombre <input required type="text" id="nombre"> <br></label>
+                <label for="apellido">Apellido <input type="text" id="apellido"> <br></label>
+                <label for="email">Email <input placeholder="xxxx@email.xxx" required type="email" id="email">
+                    <br></label>
+                <label for="edad">Edad <input type="number" id="edad"> <br></label>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer>Copyright 2021</footer>
+
+</body>
+
+</html>

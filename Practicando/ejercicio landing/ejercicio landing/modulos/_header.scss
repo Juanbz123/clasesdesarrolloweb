@@ -1,0 +1,19 @@
+#imagen {
+    width: $full_width;
+}
+
+#navbar {
+    width: $full_width;
+    background-color: $color_gris;
+    
+    ul {
+        width: $full_width;
+        text-align: center;
+        @include no_padding_margin;
+
+        li {
+            display: inline-block;
+            padding: 20px 50px;
+        }
+    }
+}

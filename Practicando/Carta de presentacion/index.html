@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brizuela Juan</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="stilos.css">
+
+</head>
+
+<body>
+
+    
+
+    <div id="container">
+       
+      <header id="titulo_header"> 
+        <h1 class="titulo_hijo">Bienvenidos a mi portfolio </h1>
+      </header>
+
+    
+     <section id="presentacion">
+        <article class="breve_presentacion"> 
+          <br><p> Hola, mi nombre es Juan Brizuela, tengo 26 años y vivo en la ciudad de La Rioja. Me recibí de analista en sistemas de información en la universidad nacional de La Rioja. </p> 
+        </article>
+        
+        <article class="breve_presentacion">
+         <br><p> Actualmente soy estudiante avanzando en la carrera de Licenciatura en Sistemas de Información y me encuentro cursando la carrera de desarrollador web full Stack en la plataforma virtual llamada Acámica. </p>
+        </article>
+
+        <article class="perfil">
+            <img  src="imagenes/1.jpg" alt="">
+        </article>
+ 
+     </section>
+
+     
+     
+     <div class="clearfix"></div>
+
+     <section id="conocimientos">
+        
+        <div id="box1">¿Un poco más sobre mi?</div>
+        <br><button class="boton_ver_mas" >Ver más</button>
+        
+       <article class="tecnologias_aprendidas"> 
+            <br><h2>¿Tecnologías aprendidas?</h2>
+            <br><p>Cuento con conocimiento avanzados en HTML, en CSS usando preprocesador SAS. Además de conocimiento avanzado en reparación de Pc, aplicando estas últimas hasta el día de hoy. </p>
+       </article> 
+        
+       <article class="proyectos" >
+            <br><h2>proyectos</h2>
+            <br><p>Página web sobre mi artista favorito.</p>
+       </article>
+
+        </section>
+
+        <br><form id="formulario"action="" >
+        <fieldset>
+            <legend id="legend" > ¿Quieres comunicarte conmigo? </legend>
+            <label for="nombre y apellido"><input type="text" placeholder="Nombre y apellido"></label>
+            <label for="mail"><input type="email" placeholder="E-mail"></label>
+            <label for="celular"><input type="number" placeholder="Celular"></label>
+            <button class="enviar">Enviar</button>
+        </fieldset>
+     </form>
+
+     <script>
+        legend = document.getElementById('legend');
+        legend.addEventListener ("click", function ()
+        {
+            alert ("Deja tus datos, yo me comunico con vos. ¡Gracias!")
+        });
+
+        formulario= document.getElementById('formulario');
+        formulario.addEventListener("mouseenter", function(){
+        formulario.style.color = "yellow";
+        formulario.style.backgroundColor = "lightblue";
+        
+        });
+        
+        </script>
+
+        <footer>Juan Brizuela</footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#container {
+     
+    width: 100%;
+    border: 1px black solid; 
+    float: left;
+
+
+    p{
+
+        font-style: italic;
+        text-align: justify;
+
+    }
+    
+}
+
+.clearfix {
+
+    clear: both;
+
+}
+

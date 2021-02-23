@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 100%;
+  border: 1px black solid;
+  float: left;
+}
+
+#container p {
+  font-style: italic;
+  text-align: justify;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#titulo_header {
+  width: 100%;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+#titulo_header .titulo_hijo {
+  line-height: 100px;
+}
+
+#presentacion {
+  position: relative;
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+#presentacion .perfil {
+  float: left;
+  position: absolute;
+  width: 20%;
+  background-color: black;
+}
+/*# sourceMappingURL=stilos.css.map */

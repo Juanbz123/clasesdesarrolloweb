@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera pagina</title>
+  <style>
+
+    body { background-color: burlywood;}
+    h1 { color : green}
+    h6 {padding-left: 2opx;}
+    p {background-color:black; color: white}
+    </style>
+
+</head>
+<body>
+  <h1 id="nombre">Brizuela Juan</h1>
+  <p id="fecha_nacimiento">13/05/1995</p>
+  <p id="descripcion"> Mi nombre es Brizuela Juan, tengo 25 años y vivo en la ciudad de La Rioja Argentina</p>
+  <script>
+
+    nombre = document.getElementById('nombre');
+    nombre.addEventListener("click", function(){alert("Bienvenidos a mi sitio web")});
+
+    fecha_nacimiento = document.getElementById('fecha_nacimiento');
+    fecha_nacimiento.addEventListener("mouseenter", function(){
+        fecha_nacimiento.style.color = "orange";
+        fecha_nacimiento.style.backgroundColor = "green";
+    });
+
+    descripcion = document.getElementById('descripcion');
+    descripcion.addEventListener("mouseenter", function(){
+        descripcion.style.color ="green";
+        descripcion.style.backgroundColor = "orange";
+    
+    });
+
+    descripcion.addEventListener("mouseout", function(){
+        descripcion.style.color = "white";
+        descripcion.style.backgroundColor ="Black";
+    });
+</script>
+</body>
+
+
+</html>

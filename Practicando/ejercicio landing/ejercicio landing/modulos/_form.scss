@@ -1,0 +1,32 @@
+#registrate {
+    @include column(25%);
+    border: 1px black solid;
+    vertical-align: top;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: sticky;
+    top: 60px;
+
+    input, button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    input {
+        padding: 10px;
+        width: 80%;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: $color_gris;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}

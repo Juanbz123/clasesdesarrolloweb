@@ -1,0 +1,17 @@
+.box1 {
+    border: 30px black;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    align-self: center;
+    margin: 0 auto; 
+}
+
+.box2 {
+    border: 30px black;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    align-self: start;
+    margin: 0 auto; 
+}

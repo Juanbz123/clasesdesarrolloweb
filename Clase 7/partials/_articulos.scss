@@ -1,0 +1,48 @@
+%column {
+    display: inline-block;
+    width: 33.3vw;
+    margin: 10px;
+    padding: 15px;
+    vertical-align: top;
+
+    @media (max-width:620px) {
+        width: 100%;
+        display: block;
+
+    }
+   
+}
+
+* {
+
+
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: $font_calibri;
+    
+}
+
+p{
+    color: $color_gris;
+    font-size: 16px;
+}
+
+h1, h2 {
+    color:$color_rojo;
+    font-size: 24px;
+    text-align: center;
+}
+
+form {
+    border: 20px dashed $color_naranja;
+    @extend %column;
+}
+
+.noticia{
+   @extend %column;
+
+}
+

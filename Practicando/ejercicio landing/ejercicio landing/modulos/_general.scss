@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    @include no_padding_margin;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font: $titulo;
+}
+
+h2 {
+    font: $subtitulo;
+}
+
+section {
+    margin: 10px 50px;
+}

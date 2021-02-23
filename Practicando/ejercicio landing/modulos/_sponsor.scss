@@ -1,0 +1,61 @@
+#platinium {
+    
+
+@include column (50%);
+
+    .box1_platinium {  
+        
+        @include caja;
+    }
+    .box2_platinium{
+
+        @include caja;
+    }
+
+    .box3_platinium {
+
+        @include caja;
+    }
+}
+
+
+
+#gold {
+
+   
+    @include column(50%);
+
+    .box1_gold {
+
+        @include caja;
+    }
+    .box2_gold {
+
+        @include caja;
+    }
+
+    .box3_gold {
+
+        @include caja;
+    }
+}
+
+#silver{
+
+    
+    @include column(50%);
+
+    .box1_silver {
+
+        @include caja;
+    }
+    .box2_silver {
+
+        @include caja;
+    }
+
+    .box3_silver{
+
+        @include caja;
+    }
+}

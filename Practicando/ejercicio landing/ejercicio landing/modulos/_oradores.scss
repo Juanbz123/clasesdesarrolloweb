@@ -1,0 +1,29 @@
+#oradores {
+    @include column(60%);
+
+    img {
+        border-radius: 50%;
+    }
+
+    .column_oradores {
+        @include column(50%);
+        vertical-align: top;
+        margin: 30px 50px;
+
+        :first-child {
+            font-weight: bold;
+        }
+
+        div {
+            @include column(20px);
+            background-color: $color_gris;
+            padding: 10px;
+            height: 20px;
+            text-align: center;
+        }
+    }
+
+    .orador {
+        margin-bottom: 50px;
+    }
+}

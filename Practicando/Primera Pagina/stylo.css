@@ -1,0 +1,51 @@
+body {
+    border: 30px;
+    background-color:white;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+
+h1{
+    color: black ;
+    font-family: fantasy;
+    border: solid;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h3 {
+
+    font-family: fantasy, 'Times New Roman';
+    color:blueviolet;
+    font-size: 24;
+    text-align: center;
+
+}
+
+p {
+    font-family: fantasy, Arial;
+    color:orange;
+}
+
+.enlace{
+    font-family:fantasy,Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+img {
+
+    border: 4px dotted black ;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
